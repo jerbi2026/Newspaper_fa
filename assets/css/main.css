@@ -30,6 +30,10 @@ body {
 
 }
 
+
+
+
+
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
@@ -9629,4 +9633,66 @@ ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > u
 ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child::before {
   content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
 
-/*# sourceMappingURL=main.css.map */
+
+
+
+  
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-bottom: 4px solid #ffff; 
+  font-family: 'Courier New', Courier, monospace;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+header p {
+  margin: 0;
+  width: 30%; 
+  
+}
+
+
+.trait 
+  {
+    border: 1px solid white;
+    width:100% ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+  }
+
+
+.soustitre
+{
+  
+  display: flex;
+  align-items: center;
+
+}
+
+.deux_parag{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  
+}
+
+.deux_parag p{
+  width: 40%;
+  margin: 0;
+  font-size: smaller;
+}
+
+.merci{
+  text-align: center;
+}
